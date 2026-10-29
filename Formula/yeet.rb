@@ -1,30 +1,30 @@
 class Yeet < Formula
   desc "Native multiplatform agent CLI/TUI with a provider-neutral runtime and remote UI"
   homepage "https://github.com/kyooni18/Yeet"
-  version "0.1.1"
+  version "0.1.5"
   license "Apache-2.0"
 
   depends_on "node"
 
   on_macos do
     on_arm do
-      url "https://github.com/kyooni18/Yeet/releases/download/v0.1.1/yeet-0.1.1-aarch64-apple-darwin.tar.gz"
-      sha256 "af2dcbea78fa208500aefbf60375bb16ce8a9e1be0106d8831b7298fa0b49639"
+      url "https://github.com/kyooni18/Yeet/releases/download/v0.1.5/yeet-0.1.5-aarch64-apple-darwin.tar.gz"
+      sha256 "2341bf160f894c022b987787be878ebfad10e485afb3aad8734b7d1e79853700"
     end
     on_intel do
-      url "https://github.com/kyooni18/Yeet/releases/download/v0.1.1/yeet-0.1.1-x86_64-apple-darwin.tar.gz"
-      sha256 "612d9dbc5a5b82148d6e96e98f4fcfba1904eccb09fdbe66cc03731885136d45"
+      url "https://github.com/kyooni18/Yeet/releases/download/v0.1.5/yeet-0.1.5-x86_64-apple-darwin.tar.gz"
+      sha256 "b7d45307a29ccbd34b254f31f4b6193cfd3194b9397e39281ac903f6d76302b7"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/kyooni18/Yeet/releases/download/v0.1.1/yeet-0.1.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "bc077b8aaad66674ce67fd10faae5f51e5c8971dacac6f45cf873d811d4fe0c8"
+      url "https://github.com/kyooni18/Yeet/releases/download/v0.1.5/yeet-0.1.5-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "f88c94fcc4d3e4d206b2a0fa6a6d4a33712743f93c6e3e979bfbfe8ca46dc2ae"
     end
     on_intel do
-      url "https://github.com/kyooni18/Yeet/releases/download/v0.1.1/yeet-0.1.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "c538573132c8c944e0aacfd3e956d9fbaf6e71455c0daba2f288ca48eb3fd218"
+      url "https://github.com/kyooni18/Yeet/releases/download/v0.1.5/yeet-0.1.5-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "6cff5e140a778affb00211233d2d097f375aba6595ce360c0d4ed7456ae4bde8"
     end
   end
 
